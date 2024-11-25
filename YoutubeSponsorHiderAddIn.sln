@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeSponsorHiderAddIn", "YoutubeSponsorHiderAddIn\YoutubeSponsorHiderAddIn.csproj", "{FAB7DCF3-2467-49B1-BD71-D871BA2AA664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB7DCF3-2467-49B1-BD71-D871BA2AA664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB7DCF3-2467-49B1-BD71-D871BA2AA664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB7DCF3-2467-49B1-BD71-D871BA2AA664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB7DCF3-2467-49B1-BD71-D871BA2AA664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

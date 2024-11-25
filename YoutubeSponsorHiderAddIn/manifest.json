@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sponsored Video Hiding Add-in",
+  "version": "1.0",
+  "author": "Chris Arnold",
+  "icons": {
+    //"16": "red_youtube_icon_with_a_no_entry_sign.ico",
+    //"48": "red_youtube_icon_with_a_no_entry_sign.ico",
+    "128": "red_youtube_icon_with_a_no_entry_sign.ico"
+  },
+  "description": "Hides the sponsored videos that appear in on YouTube pages. It does this by turning the opacity down to 10%.",
+  "permissions": [ "activeTab", "storage", "scripting" ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "*://www.youtube.com/*" ],
+      "js": [ "content.js" ]
+    }
+  ]
+}
